@@ -1,0 +1,290 @@
+# Blender 4.0.2 MTL File: 'None'
+# www.blender.org
+
+newmtl Bumpers
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd RV_Bumpers_BaseColor.png
+map_Ns RV_Bumpers_Roughness.png
+map_refl RV_Bumpers_Metallic.png
+map_Bump -bm 1.000000 RV_Bumpers_Normal.png
+
+newmtl Bumpers.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd RV_Bumpers_BaseColor.png
+map_Ns RV_Bumpers_Roughness.png
+map_refl RV_Bumpers_Metallic.png
+map_Bump -bm 1.000000 RV_Bumpers_Normal.png
+
+newmtl ChromePipes
+Ns 921.599976
+Ka 0.894545 0.894545 0.894545
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd RV_ChromePipes_BaseColor.png
+map_Bump -bm 1.000000 RV_ChromePipes_Normal.png
+
+newmtl ChromePipes.001
+Ns 921.599976
+Ka 0.894545 0.894545 0.894545
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd RV_ChromePipes_BaseColor.png
+map_Bump -bm 1.000000 RV_ChromePipes_Normal.png
+
+newmtl Exhaust
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd RV_Exhaust_BaseColor.png
+map_Ns RV_ChromePipes_Roughness.png
+map_Bump -bm 1.000000 RV_ChromePipes_Normal.png
+
+newmtl Exhaust.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd RV_Exhaust_BaseColor.png
+map_Ns RV_Exhaust_Roughness.png
+map_Bump -bm 1.000000 RV_Exhaust_Normal.png
+
+newmtl Lights
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd RV_Lights_BaseColor.png
+map_Ns RV_Lights_Roughness.png
+map_refl RV_Lights_Metallic.png
+map_Ke RV_Lights_BaseColor.png
+map_Bump -bm 1.000000 RV_Lights_Normal.png
+
+newmtl Lights.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.450000
+illum 2
+map_Kd RV_Lights_BaseColor.png
+map_Ns RV_Lights_Roughness.png
+map_refl RV_Lights_Metallic.png
+map_Ke RV_Lights_BaseColor.png
+map_d RV_Lights_BaseColor.png
+map_Bump -bm 1.000000 RV_Lights_Normal.png
+
+newmtl MainBody
+Ka 1.000000 1.000000 1.000000
+Ks 0.414545 0.414545 0.414545
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd RV_MainBody_BaseColor.png
+map_Ns RV_MainBody_Roughness.png
+map_Bump -bm 1.500000 RV_MainBody_Normal.png
+
+newmtl MainBody.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.414545 0.414545 0.414545
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd RV_MainBody_BaseColor.png
+map_Ns RV_MainBody_Roughness.png
+map_refl RV_MainBody_Metallic.png
+map_d RV_MainBody_BaseColor.png
+map_Bump -bm 1.500000 RV_MainBody_Normal.png
+
+newmtl Mirrors
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd RV_Mirrors_BaseColor.png
+map_Ns RV_Mirrors_Roughness.png
+map_Bump -bm 1.000000 RV_Mirrors_Normal.png
+
+newmtl Mirrors.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 3
+map_Kd RV_Mirrors_BaseColor.png
+map_Ns RV_Mirrors_Roughness.png
+map_d RV_Mirrors_BaseColor.png
+map_Bump -bm 1.000000 RV_Mirrors_Normal.png
+
+newmtl NumberPlate
+Ns 787.252869
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd nm2016-782.jpg
+
+newmtl NumberPlate.001
+Ns 787.252869
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd nm2016-782.jpg
+
+newmtl RearAxle
+Ka 1.000000 1.000000 1.000000
+Ks 0.350909 0.350909 0.350909
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd RV_RearAxle_BaseColor.png
+map_Ns RV_RoofBoxes_Roughness.png
+
+newmtl RearAxle.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.350909 0.350909 0.350909
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd RV_RearAxle_BaseColor.png
+map_Ns RV_RearAxle_Roughness.png
+map_refl RV_RearAxle_Metallic.png
+
+newmtl RoofBoxes
+Ka 0.083636 0.083636 0.083636
+Ks 0.260000 0.260000 0.260000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd RV_RoofBoxes_BaseColor.png
+map_Ns RV_RoofBoxes_Roughness.png
+map_Bump -bm 1.000000 RV_RoofBoxes_Normal.png
+
+newmtl RoofBoxes.001
+Ka 0.083636 0.083636 0.083636
+Ks 0.260000 0.260000 0.260000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd RV_RoofBoxes_BaseColor.png
+map_Ns RV_RoofBoxes_Roughness.png
+map_Bump -bm 1.000000 RV_RoofBoxes_Normal.png
+
+newmtl SidePannelDetail
+Ka 0.029091 0.029091 0.029091
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd RV_SidePannelDetail_BaseColor.png
+map_Ns RV_SidePannelDetail_Roughness.png
+map_Bump -bm 1.400000 RV_SidePannelDetail_Normal.png
+
+newmtl SidePannelDetail.001
+Ka 0.029091 0.029091 0.029091
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 3
+map_Kd RV_SidePannelDetail_BaseColor.png
+map_Ns G:/Blender/Adbobe Subsance Painter Textures/RV/RV_SidePannelDetail_Roughness.png
+map_d RV_SidePannelDetail_BaseColor.png
+map_Bump -bm 1.400000 RV_SidePannelDetail_Normal.png
+
+newmtl Tarp
+Ka 0.909091 0.909091 0.909091
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd RV_Tarp_BaseColor.png
+map_Ns RV_Tarp_Roughness.png
+map_Bump -bm 1.000000 RV_Tarp_Normal.png
+
+newmtl Tarp.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd RV_Tarp_BaseColor.png
+map_Ns RV_Tarp_Roughness.png
+map_Bump -bm 1.000000 RV_Tarp_Normal.png
+
+newmtl Wheels
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd RV_Wheels_BaseColor.png
+map_Ns RV_Wheels_Roughness.png
+map_Bump -bm 1.000000 RV_Wheels_Normal.png
+
+newmtl Wheels.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd RV_Wheels_BaseColor.png
+map_Ns RV_Wheels_Roughness.png
+map_Bump -bm 1.000000 RV_Wheels_Normal.png
+
+newmtl Windows
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd RV_Windows_BaseColor.png
+map_Ns RV_Windows_Roughness.png
+map_Bump -bm 1.000000 RV_Windows_Normal.png
+
+newmtl Windows.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd RV_Windows_BaseColor.png
+map_Ns RV_Windows_Roughness.png
+map_d RV_Windows_BaseColor.png
+map_Bump -bm 1.000000 RV_Windows_Normal.png

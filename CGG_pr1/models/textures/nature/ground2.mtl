@@ -1,0 +1,13 @@
+# Blender 4.0.2 MTL File: 'None'
+# www.blender.org
+
+newmtl Материал.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd red_laterite_soil_stones_4k.blend/textures/red_laterite_soil_stones_diff_4k.jpg
+map_Ns red_laterite_soil_stones_4k.blend/textures/red_laterite_soil_stones_rough_4k.exr
+map_Bump -bm 1.000000 red_laterite_soil_stones_4k.blend/textures/red_laterite_soil_stones_nor_gl_4k.exr
