@@ -48,9 +48,9 @@ int main()
     /// Models initializing///
     Model3D rv("./models/textures/rv/RV.obj", { 1.f, .35f, 5.f });
 
-    Model3D brunch1("./models/textures/items/brunch1.obj", ModelPosition);
-    Model3D brunch2("./models/textures/items/brunch2.obj", { -1, 0.5f, 0 });
-    Model3D brunch3("./models/textures/items/brunch3.obj", { -4, 0.7f, 6 });
+    Model3D branch1("./models/textures/items/branch1.obj", ModelPosition);
+    Model3D branch2("./models/textures/items/branch2.obj", { -1, 0.5f, 0 });
+    Model3D branch3("./models/textures/items/branch3.obj", { -4, 0.7f, 6 });
 
     Model3D chair1("./models/textures/items/chair.obj", { -2.5, 0.65f, 4 });
     Model3D chair2("./models/textures/items/chair.obj", { -3, 0.65f, 3.5 });
@@ -60,9 +60,9 @@ int main()
 
     //loading shaders
     rv.loadShaders("vs2.glsl", "fs2.glsl");
-    brunch1.loadShaders("vs2.glsl", "fs2.glsl");
-    brunch2.loadShaders("vs2.glsl", "fs2.glsl");
-    brunch3.loadShaders("vs2.glsl", "fs2.glsl");
+    branch1.loadShaders("vs2.glsl", "fs2.glsl");
+    branch2.loadShaders("vs2.glsl", "fs2.glsl");
+    branch3.loadShaders("vs2.glsl", "fs2.glsl");
     chair1.loadShaders("vs2.glsl", "fs2.glsl");
     chair2.loadShaders("vs2.glsl", "fs2.glsl");
     rv.degree = 5;
@@ -147,14 +147,14 @@ int main()
         MMatr = floor.GetMMatrix();
         floor.Draw(&MMatr[0][0], &VMatr[0][0], &PMatr[0][0]);
         //brunches (3)
-        brunch1.position = ModelPosition; //mooving by user
-        brunch1.degree = ModelDegree;
-        MMatr = brunch1.GetMMatrix();
-        brunch1.Draw(&MMatr[0][0], &VMatr[0][0], &PMatr[0][0]);
-        MMatr = brunch2.GetMMatrix();
-        brunch2.Draw(&MMatr[0][0], &VMatr[0][0], &PMatr[0][0]);
-        MMatr = brunch3.GetMMatrix();
-        brunch3.Draw(&MMatr[0][0], &VMatr[0][0], &PMatr[0][0]);
+        branch1.position = ModelPosition; //mooving by user
+        branch1.degree = ModelDegree;
+        MMatr = branch1.GetMMatrix();
+        branch1.Draw(&MMatr[0][0], &VMatr[0][0], &PMatr[0][0]);
+        MMatr = branch2.GetMMatrix();
+        branch2.Draw(&MMatr[0][0], &VMatr[0][0], &PMatr[0][0]);
+        MMatr = branch3.GetMMatrix();
+        branch3.Draw(&MMatr[0][0], &VMatr[0][0], &PMatr[0][0]);
         //chairs (2)
         MMatr = chair1.GetMMatrix({ 0.7f, 0.7f, 0.7f });
         chair1.Draw(&MMatr[0][0], &VMatr[0][0], &PMatr[0][0]);
