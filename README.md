@@ -21,3 +21,10 @@ Here are the libraries that have been used here (they are free):
 - Music 'One by One' by 'The Black Seeds' from 'Breaking Bad' s2e9.
 
 all rights belong to its owners
+### Demonstration
+Demo video of project (watch with sound)
+
+https://github.com/GeorgeFirsanov/NewMexico3D/assets/122824967/c7c3fef8-4d74-4aa4-8304-edcd24097d43
+
+
+
